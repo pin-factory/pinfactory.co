@@ -1,4 +1,4 @@
-# pinfactor.co
+# pinfactory.co
 
 PinFactory main site
 
