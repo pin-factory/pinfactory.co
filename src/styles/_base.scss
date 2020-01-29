@@ -1,0 +1,12 @@
+a {
+  color: map-get($colors, link);
+}
+
+body {
+  color: map-get($colors, base);
+  margin: 0 auto;
+  padding: 0 40px;
+  width: 100%;
+  max-width: 480px;
+  box-sizing: border-box;
+}

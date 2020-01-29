@@ -1,0 +1,9 @@
+@mixin box-decoration() {
+  &::before {
+    content: "";
+    margin: 0 auto 4rem;
+    width: 200px;
+    display: block;
+    border-top: 1px solid map-get($colors, accent);
+  }
+}

@@ -1,0 +1,49 @@
+body {
+  font-family: map-get($fonts, base);
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+em {
+  font-style: italic;
+}
+
+h1 {
+  margin: 8rem auto 4rem;
+  font-size: 2rem;
+  font-family: map-get($fonts, display);
+  font-weight: 300;
+  text-align: center;
+}
+
+h2 {
+  font-size: 1.3rem;
+  font-family: map-get($fonts, display);
+  text-align: center;
+  font-weight: 300;
+  margin: 3rem auto 2rem;
+}
+
+h3 {
+  font-size: 1.1rem;
+  font-family: map-get($fonts, base);
+}
+
+p {
+  margin: 1rem 0;
+  line-height: 1.4;
+}
+
+.type-temporary {
+  margin: 3rem auto;
+  font-size: 1.6rem;
+  font-family: map-get($fonts, base);
+  font-style: italic;
+  text-align: center;
+}
+
+.type-footer {
+  font-size: .8rem;
+  font-family: map-get($fonts, base);
+  text-align: center;
+}
